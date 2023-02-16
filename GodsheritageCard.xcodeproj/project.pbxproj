@@ -11,6 +11,8 @@
 		586122F6299E038800CE2CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586122F5299E038800CE2CAA /* ContentView.swift */; };
 		586122F8299E038900CE2CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586122F7299E038900CE2CAA /* Assets.xcassets */; };
 		586122FB299E038900CE2CAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586122FA299E038900CE2CAA /* Preview Assets.xcassets */; };
+		58612303299E071400CE2CAA /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58612302299E071400CE2CAA /* Pacifico-Regular.ttf */; };
+		58612308299E161900CE2CAA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58612307299E161800CE2CAA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		586122F5299E038800CE2CAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		586122F7299E038900CE2CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586122FA299E038900CE2CAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58612302299E071400CE2CAA /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		58612306299E0CE600CE2CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		58612307299E161800CE2CAA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		586122F2299E038800CE2CAA /* GodsheritageCard */ = {
 			isa = PBXGroup;
 			children = (
+				58612306299E0CE600CE2CAA /* Info.plist */,
+				58612301299E06FC00CE2CAA /* fonts */,
 				586122F3299E038800CE2CAA /* GodsheritageCardApp.swift */,
 				586122F5299E038800CE2CAA /* ContentView.swift */,
 				586122F7299E038900CE2CAA /* Assets.xcassets */,
 				586122F9299E038900CE2CAA /* Preview Content */,
+				58612307299E161800CE2CAA /* InfoView.swift */,
 			);
 			path = GodsheritageCard;
 			sourceTree = "<group>";
@@ -65,6 +73,14 @@
 				586122FA299E038900CE2CAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58612301299E06FC00CE2CAA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58612302299E071400CE2CAA /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58612303299E071400CE2CAA /* Pacifico-Regular.ttf in Resources */,
 				586122FB299E038900CE2CAA /* Preview Assets.xcassets in Resources */,
 				586122F8299E038900CE2CAA /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58612308299E161900CE2CAA /* InfoView.swift in Sources */,
 				586122F6299E038800CE2CAA /* ContentView.swift in Sources */,
 				586122F4299E038800CE2CAA /* GodsheritageCardApp.swift in Sources */,
 			);
@@ -269,7 +287,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GodsheritageCard/Preview Content\"";
 				DEVELOPMENT_TEAM = WK87B47QY3;
 				ENABLE_PREVIEWS = YES;
+				Fontsprovidedbyapplication = "Pacifico-Regular.ttf";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GodsheritageCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,7 +318,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GodsheritageCard/Preview Content\"";
 				DEVELOPMENT_TEAM = WK87B47QY3;
 				ENABLE_PREVIEWS = YES;
+				Fontsprovidedbyapplication = "Pacifico-Regular.ttf";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GodsheritageCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

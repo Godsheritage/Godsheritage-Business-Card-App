@@ -9,18 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color(red: 1.0, green: 0.9686, blue: 0.9137, opacity:1.0)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Image("Godsheritage_picture")
+                    .resizable()
+                    .aspectRatio( contentMode: .fit)
+                    .frame(width: 250.0, height:250.0, alignment: .center)
+                
+                Text("Godsheritage Adeoye")
+                    .font(Font.custom("pacifico-regular", size: 40))
+                    .foregroundColor(.blue)
+                Text("Full Stack Developer")
+                    .foregroundColor(.blue)
+                    .font(.system(size: 25))
+                Divider()
+                
+                    InfoView(text:"+1 443 929 2178", imageName: "phone.fill")
+                    InfoView(text:"adeoyegodsheritage@gmail.com", imageName: "envelope.fill")
+            }
         }
-        .padding()
+    }
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
