@@ -26,9 +26,12 @@ struct ContentView: View {
                     .foregroundColor(.blue)
                     .font(.system(size: 25))
                 Divider()
-                
-                    InfoView(text:"+1 443 929 2178", imageName: "phone.fill")
-                    InfoView(text:"adeoyegodsheritage@gmail.com", imageName: "envelope.fill")
+                Image("QR_CODE")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 250, alignment: .center)
+//                    InfoView(text:"+1 443 929 2178", imageName: "phone.fill")
+//                    InfoView(text:"adeoyegodsheritage@gmail.com", imageName: "envelope.fill")
             }
         }
     }
