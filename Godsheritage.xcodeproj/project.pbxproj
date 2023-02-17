@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		586122F4299E038800CE2CAA /* GodsheritageCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586122F3299E038800CE2CAA /* GodsheritageCardApp.swift */; };
+		586122F4299E038800CE2CAA /* Godsheritage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586122F3299E038800CE2CAA /* Godsheritage.swift */; };
 		586122F6299E038800CE2CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586122F5299E038800CE2CAA /* ContentView.swift */; };
 		586122F8299E038900CE2CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586122F7299E038900CE2CAA /* Assets.xcassets */; };
 		586122FB299E038900CE2CAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586122FA299E038900CE2CAA /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		586122F0299E038800CE2CAA /* GodsheritageCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodsheritageCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		586122F3299E038800CE2CAA /* GodsheritageCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsheritageCardApp.swift; sourceTree = "<group>"; };
+		586122F0299E038800CE2CAA /* Godsheritage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godsheritage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586122F3299E038800CE2CAA /* Godsheritage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Godsheritage.swift; sourceTree = "<group>"; };
 		586122F5299E038800CE2CAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		586122F7299E038900CE2CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586122FA299E038900CE2CAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		586122F1299E038800CE2CAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				586122F0299E038800CE2CAA /* GodsheritageCard.app */,
+				586122F0299E038800CE2CAA /* Godsheritage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			children = (
 				58612306299E0CE600CE2CAA /* Info.plist */,
 				58612301299E06FC00CE2CAA /* fonts */,
-				586122F3299E038800CE2CAA /* GodsheritageCardApp.swift */,
+				586122F3299E038800CE2CAA /* Godsheritage.swift */,
 				586122F5299E038800CE2CAA /* ContentView.swift */,
 				586122F7299E038900CE2CAA /* Assets.xcassets */,
 				586122F9299E038900CE2CAA /* Preview Content */,
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		586122EF299E038800CE2CAA /* GodsheritageCard */ = {
+		586122EF299E038800CE2CAA /* Godsheritage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 586122FE299E038900CE2CAA /* Build configuration list for PBXNativeTarget "GodsheritageCard" */;
+			buildConfigurationList = 586122FE299E038900CE2CAA /* Build configuration list for PBXNativeTarget "Godsheritage" */;
 			buildPhases = (
 				586122EC299E038800CE2CAA /* Sources */,
 				586122ED299E038800CE2CAA /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = GodsheritageCard;
+			name = Godsheritage;
 			productName = GodsheritageCard;
-			productReference = 586122F0299E038800CE2CAA /* GodsheritageCard.app */;
+			productReference = 586122F0299E038800CE2CAA /* Godsheritage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 586122EB299E038800CE2CAA /* Build configuration list for PBXProject "GodsheritageCard" */;
+			buildConfigurationList = 586122EB299E038800CE2CAA /* Build configuration list for PBXProject "Godsheritage" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				586122EF299E038800CE2CAA /* GodsheritageCard */,
+				586122EF299E038800CE2CAA /* Godsheritage */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,7 @@
 			files = (
 				58612308299E161900CE2CAA /* InfoView.swift in Sources */,
 				586122F6299E038800CE2CAA /* ContentView.swift in Sources */,
-				586122F4299E038800CE2CAA /* GodsheritageCardApp.swift in Sources */,
+				586122F4299E038800CE2CAA /* Godsheritage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		586122EB299E038800CE2CAA /* Build configuration list for PBXProject "GodsheritageCard" */ = {
+		586122EB299E038800CE2CAA /* Build configuration list for PBXProject "Godsheritage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				586122FC299E038900CE2CAA /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		586122FE299E038900CE2CAA /* Build configuration list for PBXNativeTarget "GodsheritageCard" */ = {
+		586122FE299E038900CE2CAA /* Build configuration list for PBXNativeTarget "Godsheritage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				586122FF299E038900CE2CAA /* Debug */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct GodsheritageCardApp: App {
+struct Godsheritage: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
